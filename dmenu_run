@@ -1,2 +1,3 @@
-#!/bin/sh
-dmenu_path | dmenu "$@" | ${SHELL:-"/bin/sh"} &
+#!zsh
+source $HOME/.zshrc
+eval "$(print -lr - ${(k)aliases} ${(k)commands} ${(k)functions} | dmenu "$@")"
