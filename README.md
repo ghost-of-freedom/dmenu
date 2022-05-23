@@ -6,6 +6,6 @@
 - [mouse-support](https://tools.suckless.org/dmenu/patches/mouse-support/)
 
 Customizations:
-- dmenu_run modified to use `#!zsh` shebang (for use in guix), source ~/.zshrc and use functions and aliases as well as programs
-- normal and selected text color have been changed for better visibility
+- dmenu_run is modified to use `#!zsh` shebang (for use in guix), source ~/.zshrc and use functions and aliases as well as programs
+- normal and selected text colors are changed for better visibility
 - IBM Plex is set as the default font, with the default dmenu font set as fallback
